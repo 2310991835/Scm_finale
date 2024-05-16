@@ -43,6 +43,7 @@ body {
   cursor: pointer;
   padding: 20px;
   margin: 10px 5px;
+  transition: all 0.3s ease;
 }
 
 .rating:hover,
@@ -73,6 +74,7 @@ body {
   border-radius: 4px;
   padding: 12px 30px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .btn:focus {
@@ -88,9 +90,16 @@ body {
   font-size: 42px;
   margin-bottom: 10px;
 }
-.fa .fa-heart
-{
-  color : black
-  font size : red
-  marginbottom 
+
+/* Adjustments for FontAwesome */
+.fa.fa-heart {
+  color: red;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.fa.fa-heart, .fa.fa-heart {
+  color: red;
+  font-size: 42px;
+  margin-bottom: 10px;
 }
